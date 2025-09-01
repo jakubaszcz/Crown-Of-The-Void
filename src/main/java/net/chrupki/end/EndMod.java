@@ -1,6 +1,7 @@
 package net.chrupki.end;
 
 import com.mojang.logging.LogUtils;
+import net.chrupki.end.blocks.Blocks;
 import net.chrupki.end.items.Items;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -38,6 +39,7 @@ public class EndMod
         MinecraftForge.EVENT_BUS.register(this);
 
         Items.register(modEventBus);
+        Blocks.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -57,6 +59,10 @@ public class EndMod
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(Items.ENDERITE_SCRAP);
             event.accept(Items.ENDERITE_INGOT);
+        }
+
+        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(Blocks.MODERN_DEBRIS);
         }
     }
 
