@@ -2,6 +2,7 @@ package net.chrupki.end;
 
 import com.mojang.logging.LogUtils;
 import net.chrupki.end.blocks.Blocks;
+import net.chrupki.end.items.CreativeTabs;
 import net.chrupki.end.items.Items;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
@@ -38,6 +39,8 @@ public class EndMod
         // Register ourselves for server and other game events we are interested in
         MinecraftForge.EVENT_BUS.register(this);
 
+        CreativeTabs.register(modEventBus);
+
         Items.register(modEventBus);
         Blocks.register(modEventBus);
 
@@ -56,14 +59,6 @@ public class EndMod
     // Add the example block item to the building blocks tab
     private void addCreative(BuildCreativeModeTabContentsEvent event)
     {
-        if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
-            event.accept(Items.ENDERITE_SCRAP);
-            event.accept(Items.ENDERITE_INGOT);
-        }
-
-        if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
-            event.accept(Blocks.MODERN_DEBRIS);
-        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

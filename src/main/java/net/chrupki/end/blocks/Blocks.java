@@ -20,7 +20,7 @@ public class Blocks {
 
     public static final RegistryObject<Block> MODERN_DEBRIS = registerBlock("modern_debris",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(4f)
+                    .strength(2f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.ANCIENT_DEBRIS)));
 
