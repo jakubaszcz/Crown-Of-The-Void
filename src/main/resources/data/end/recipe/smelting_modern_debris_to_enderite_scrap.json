@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 0.25,
+  "group": "enderite",
+  "ingredient": {
+    "item": "end:modern_debris"
+  },
+  "result": {
+    "id": "end:enderite_scrap"
+  }
+}

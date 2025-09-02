@@ -2,6 +2,8 @@ package net.chrupki.end.items;
 
 import net.chrupki.end.EndMod;
 import net.chrupki.end.FloatingItems;
+import net.chrupki.end.blocks.Blocks;
+import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;

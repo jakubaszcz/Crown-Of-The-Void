@@ -1,6 +1,7 @@
 package net.chrupki.end.items;
 
 import net.chrupki.end.EndMod;
+import net.chrupki.end.blocks.Blocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -21,6 +22,7 @@ public class CreativeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Items.ENDERITE_INGOT.get());
                         output.accept(Items.ENDERITE_SCRAP.get());
+                        output.accept(Blocks.MODERN_DEBRIS.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
