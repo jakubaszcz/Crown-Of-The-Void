@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "end:item/enderite_ingot"
+    "layer0": "endmod:item/enderite_ingot"
   }
 }

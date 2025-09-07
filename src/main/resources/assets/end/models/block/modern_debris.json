@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "side":  "end:block/modern_debris_side",
-    "top":   "end:block/modern_debris_top",
-    "bottom":"end:block/modern_debris_top"
-  }
-}

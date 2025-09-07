@@ -1,4 +1,4 @@
-package net.chrupki.end;
+package net.chrupki.endmod;
 
 
 import net.minecraft.world.entity.item.ItemEntity;

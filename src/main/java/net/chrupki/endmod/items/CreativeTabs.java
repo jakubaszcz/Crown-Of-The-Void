@@ -1,11 +1,10 @@
-package net.chrupki.end.items;
+package net.chrupki.endmod.items;
 
-import net.chrupki.end.EndMod;
-import net.chrupki.end.blocks.Blocks;
+import net.chrupki.endmod.EndMod;
+import net.chrupki.endmod.blocks.Blocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.ItemStack;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -18,7 +17,7 @@ public class CreativeTabs {
     public static final RegistryObject<CreativeModeTab> ENDERITE_TAB = CREATIVE_MODE_TABS.register("enderite_tab",
             () -> CreativeModeTab.builder()
                     .icon(() -> new ItemStack(Items.ENDERITE_INGOT.get()))
-                    .title(Component.translatable("creativetab.end.enderite_tab"))
+                    .title(Component.translatable("creativetab.endmod.enderite_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Items.ENDERITE_INGOT.get());
                         output.accept(Items.ENDERITE_SCRAP.get());

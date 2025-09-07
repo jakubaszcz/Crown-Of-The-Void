@@ -1,7 +1,7 @@
-package net.chrupki.end.blocks;
+package net.chrupki.endmod.blocks;
 
-import net.chrupki.end.EndMod;
-import net.chrupki.end.items.Items;
+import net.chrupki.endmod.EndMod;
+import net.chrupki.endmod.items.Items;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
