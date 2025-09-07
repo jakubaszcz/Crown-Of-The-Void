@@ -5,7 +5,8 @@
     { "condition": "minecraft:random_chance", "chance": 0.35 }
   ],
   "items": [
-    { "item": "endmod:enderite_ingot", "count": 1, "weight": 5 },
+    { "item": "endmod:enderite_ingot", "count": 1, "weight": 3 },
+    { "item": "endmod:enderite_upgrade_smithing_template", "count": 1, "weight": 5 },
     { "item": "endmod:enderite_scrap", "count": 2, "weight": 15 }
   ]
 }

@@ -15,6 +15,9 @@ public class Items {
     public static final RegistryObject<Item> ENDERITE_SCRAP = ITEMS.register("enderite_scrap",
             () -> new FloatingItems(new Item.Properties().fireResistant()));
 
+    public static final RegistryObject<Item> ENDERITE_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("enderite_upgrade_smithing_template",
+            () -> new Item(new Item.Properties().fireResistant()));
+
     public static final RegistryObject<Item> ENDERITE_INGOT = ITEMS.register("enderite_ingot",
             () -> new FloatingItems(new Item.Properties().fireResistant()));
 

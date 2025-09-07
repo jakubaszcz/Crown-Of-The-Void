@@ -21,6 +21,7 @@ public class CreativeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(Items.ENDERITE_INGOT.get());
                         output.accept(Items.ENDERITE_SCRAP.get());
+                        output.accept(Items.ENDERITE_UPGRADE_SMITHING_TEMPLATE.get());
                         output.accept(Blocks.MODERN_DEBRIS.get());
                     }).build());
 
