@@ -4,18 +4,11 @@
     {
       "rolls": 1,
       "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "endmod:enderite_scrap"
-        }
+        { "type": "minecraft:item", "name": "endmod:modern_debris" }
       ],
       "conditions": [
-        {
-          "condition": "minecraft:match_tool",
-          "predicate": {
-            "tag": "minecraft:mineable/pickaxe"
-          }
-        }
+        { "condition": "minecraft:match_tool", "predicate": { "tag": "minecraft:pickaxes" } },
+        { "condition": "minecraft:survives_explosion" }
       ]
     }
   ]
