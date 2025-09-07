@@ -5,9 +5,9 @@
   "experience": 0.25,
   "group": "enderite",
   "ingredient": {
-    "item": "end:modern_debris"
+    "item": "endmod:modern_debris"
   },
   "result": {
-    "id": "end:enderite_scrap"
+    "id": "endmod:enderite_scrap"
   }
 }

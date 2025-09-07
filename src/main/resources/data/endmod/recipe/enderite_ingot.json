@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "E": {
-      "item": "end:enderite_scrap"
+      "item": "endmod:enderite_scrap"
     },
     "D": {
       "item": "minecraft:diamond"
@@ -16,6 +16,6 @@
   ],
   "result": {
     "count": 1,
-    "id": "end:enderite_ingot"
+    "id": "endmod:enderite_ingot"
   }
 }

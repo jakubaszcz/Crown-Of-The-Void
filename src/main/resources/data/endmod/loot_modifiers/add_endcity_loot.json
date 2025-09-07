@@ -1,0 +1,11 @@
+{
+  "type": "endmod:add_item",
+  "conditions": [
+    { "condition": "forge:loot_table_id", "loot_table_id": "minecraft:chests/end_city_treasure" },
+    { "condition": "minecraft:random_chance", "chance": 0.35 }
+  ],
+  "items": [
+    { "item": "endmod:enderite_ingot", "count": 1, "weight": 5 },
+    { "item": "endmod:enderite_scrap", "count": 2, "weight": 15 }
+  ]
+}
