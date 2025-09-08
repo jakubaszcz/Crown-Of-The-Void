@@ -23,6 +23,11 @@ public class CreativeTabs {
                         output.accept(Items.ENDERITE_SCRAP.get());
                         output.accept(Items.ENDERITE_UPGRADE_SMITHING_TEMPLATE.get());
                         output.accept(Blocks.MODERN_DEBRIS.get());
+
+                        output.accept(Items.ENDERITE_HELMET.get());
+                        output.accept(Items.ENDERITE_CHESTPLATE.get());
+                        output.accept(Items.ENDERITE_LEGGINGS.get());
+                        output.accept(Items.ENDERITE_BOOTS.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {
