@@ -24,20 +24,17 @@ public class Items {
 
             @Override
             public int getUses() {
-                // +30% durabilité
-                return Math.round(BASE.getUses() * 2f);
+                return Math.round(BASE.getUses() * 1.5f);
             }
 
             @Override
             public float getSpeed() {
-                // +30% vitesse minage
-                return BASE.getSpeed() * 2f;
+                return BASE.getSpeed() * 1.5f;
             }
 
             @Override
             public float getAttackDamageBonus() {
-                // +30% dégâts
-                return BASE.getAttackDamageBonus() * 2f;
+                return BASE.getAttackDamageBonus() * 1.5f;
             }
 
             @Override
@@ -47,7 +44,7 @@ public class Items {
 
             @Override
             public int getEnchantmentValue() {
-                return Math.max(1, Math.round(BASE.getEnchantmentValue() * 2f));
+                return Math.max(1, Math.round(BASE.getEnchantmentValue() * 1.5f));
             }
 
             @Override
