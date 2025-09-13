@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "side":  "crownofthevoid:block/modern_debris_side",
+    "top":   "crownofthevoid:block/modern_debris_top",
+    "bottom":"crownofthevoid:block/modern_debris_top"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:smithing_transform",
+  "template": { "item": "crownofthevoid:enderite_upgrade_smithing_template" },
+  "base":     { "item": "minecraft:netherite_boots" },
+  "addition": { "item": "crownofthevoid:enderite_ingot" },
+  "result":   { "id": "crownofthevoid:enderite_boots" }
+}

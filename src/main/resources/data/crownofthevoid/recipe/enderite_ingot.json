@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "E": {
+      "item": "crownofthevoid:enderite_scrap"
+    },
+    "D": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "EEE",
+    "EDD",
+    "DD "
+  ],
+  "result": {
+    "count": 1,
+    "id": "crownofthevoid:enderite_ingot"
+  }
+}

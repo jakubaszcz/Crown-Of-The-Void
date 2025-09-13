@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 1000,
+  "experience": 0.25,
+  "group": "enderite",
+  "ingredient": {
+    "item": "crownofthevoid:modern_debris"
+  },
+  "result": {
+    "id": "crownofthevoid:enderite_scrap"
+  }
+}

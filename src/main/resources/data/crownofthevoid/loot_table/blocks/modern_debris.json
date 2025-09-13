@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "crownofthevoid:modern_debris"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "crownofthevoid:blocks/modern_debris"
+}

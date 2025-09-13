@@ -1,0 +1,19 @@
+{
+  "item.crownofthevoid.enderite_sword": "Épée en Enderite",
+  "item.crownofthevoid.enderite_pickaxe": "Pioche en Enderite",
+  "item.crownofthevoid.enderite_shovel": "Pelle en Enderite",
+  "item.crownofthevoid.enderite_axe": "Hache en Enderite",
+  "item.crownofthevoid.enderite_hoe": "Houe en Enderite",
+
+  "item.crownofthevoid.enderite_helmet": "Casque en enderite",
+  "item.crownofthevoid.enderite_chestplate": "Plastron en enderite",
+  "item.crownofthevoid.enderite_leggings": "Jambières en enderite",
+  "item.crownofthevoid.enderite_boots": "Bottes en enderite",
+
+  "creativetab.crownofthevoid.enderite_tab": "Couronne du Néant",
+
+  "item.crownofthevoid.enderite_scrap": "Fragment d'enderite",
+  "item.crownofthevoid.enderite_ingot": "Lingot d'enderite",
+  "item.crownofthevoid.enderite_upgrade_smithing_template": "Modèle de forge d'Enderite",
+  "block.crownofthevoid.modern_debris": "Débris modernes"
+}

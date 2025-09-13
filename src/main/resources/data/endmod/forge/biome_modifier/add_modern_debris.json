@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "#minecraft:is_end",
-  "features": "endmod:modern_debris_pf",
-  "step": "underground_ores"
-}

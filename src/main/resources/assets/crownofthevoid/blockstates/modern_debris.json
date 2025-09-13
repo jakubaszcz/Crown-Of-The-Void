@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "": [
+      { "model": "crownofthevoid:block/modern_debris", "y": 0 },
+      { "model": "crownofthevoid:block/modern_debris", "y": 90 },
+      { "model": "crownofthevoid:block/modern_debris", "y": 180 },
+      { "model": "crownofthevoid:block/modern_debris", "y": 270 }
+    ]
+  }
+}

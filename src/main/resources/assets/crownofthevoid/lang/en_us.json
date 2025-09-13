@@ -1,0 +1,18 @@
+{
+  "item.crownofthevoid.enderite_sword": "Enderite Sword",
+  "item.crownofthevoid.enderite_pickaxe": "Enderite Pickaxe",
+  "item.crownofthevoid.enderite_shovel": "Enderite Shovel",
+  "item.crownofthevoid.enderite_axe": "Enderite Axe",
+  "item.crownofthevoid.enderite_hoe": "Enderite Hoe",
+
+  "item.crownofthevoid.enderite_helmet": "Enderite Helmet",
+  "item.crownofthevoid.enderite_chestplate": "Enderite Chestplate",
+  "item.crownofthevoid.enderite_leggings": "Enderite Leggings",
+  "item.crownofthevoid.enderite_boots": "Enderite Boots",
+
+  "creativetab.crownofthevoid.enderite_tab": "Crown of the Void",
+
+  "item.crownofthevoid.enderite_scrap": "Enderite Scrap",
+  "item.crownofthevoid.enderite_scrap": "Enderite Ingot",
+  "item.crownofthevoid.enderite_upgrade_smithing_template": "Enderite Smithing Template",
+}

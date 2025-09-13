@@ -1,0 +1,12 @@
+{
+  "type": "crownofthevoid:add_item",
+  "conditions": [
+    { "condition": "forge:loot_table_id", "loot_table_id": "minecraft:chests/end_city_treasure" },
+    { "condition": "minecraft:random_chance", "chance": 0.35 }
+  ],
+  "items": [
+    { "item": "crownofthevoid:enderite_ingot", "count": 1, "weight": 3 },
+    { "item": "crownofthevoid:enderite_upgrade_smithing_template", "count": 1, "weight": 5 },
+    { "item": "crownofthevoid:enderite_scrap", "count": 2, "weight": 15 }
+  ]
+}
