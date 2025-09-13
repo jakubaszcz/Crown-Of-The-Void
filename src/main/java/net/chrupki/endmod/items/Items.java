@@ -2,14 +2,67 @@ package net.chrupki.endmod.items;
 
 import net.chrupki.endmod.EndMod;
 import net.chrupki.endmod.FloatingItems;
-import net.minecraft.world.item.ArmorItem;
-import net.minecraft.world.item.Item;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.item.*;
+import net.minecraft.world.item.component.Tool;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.level.block.Block;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import net.minecraft.world.item.Tier;
+import net.minecraft.world.item.Tiers;
+
 public class Items {
+
+    public class ModTiers {
+
+        public static final Tier ENDERITE_TIER = new Tier() {
+            private final Tier BASE = Tiers.NETHERITE;
+
+            @Override
+            public int getUses() {
+                // +30% durabilité
+                return Math.round(BASE.getUses() * 2f);
+            }
+
+            @Override
+            public float getSpeed() {
+                // +30% vitesse minage
+                return BASE.getSpeed() * 2f;
+            }
+
+            @Override
+            public float getAttackDamageBonus() {
+                // +30% dégâts
+                return BASE.getAttackDamageBonus() * 2f;
+            }
+
+            @Override
+            public TagKey<Block> getIncorrectBlocksForDrops() {
+                return Tiers.NETHERITE.getIncorrectBlocksForDrops();
+            }
+
+            @Override
+            public int getEnchantmentValue() {
+                return Math.max(1, Math.round(BASE.getEnchantmentValue() * 2f));
+            }
+
+            @Override
+            public Ingredient getRepairIngredient() {
+                return Ingredient.of(Items.ENDERITE_INGOT.get());
+            }
+
+            @Override
+            public Tool createToolProperties(TagKey<Block> pBlock) {
+                return Tier.super.createToolProperties(pBlock);
+            }
+        };
+    }
+
+
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, EndMod.MOD_ID);
 
@@ -21,6 +74,51 @@ public class Items {
 
     public static final RegistryObject<Item> ENDERITE_INGOT = ITEMS.register("enderite_ingot",
             () -> new FloatingItems(new Item.Properties().fireResistant()));
+
+    public static final RegistryObject<SwordItem> ENDERITE_SWORD = ITEMS.register("enderite_sword",
+            () -> new SwordItem(
+                    ModTiers.ENDERITE_TIER,
+                    new Item.Properties()
+                            .attributes(SwordItem.createAttributes(ModTiers.ENDERITE_TIER, 3, -2.4f))
+                            .fireResistant()
+            )
+    );
+
+    public static final RegistryObject<PickaxeItem> ENDERITE_PICKAXE = ITEMS.register("enderite_pickaxe",
+            () -> new PickaxeItem(
+                    ModTiers.ENDERITE_TIER,
+                    new Item.Properties()
+                            .attributes(PickaxeItem.createAttributes(ModTiers.ENDERITE_TIER, 1, -2.8f))
+                            .fireResistant()
+            )
+    );
+
+    public static final RegistryObject<AxeItem> ENDERITE_AXE = ITEMS.register("enderite_axe",
+            () -> new AxeItem(
+                    ModTiers.ENDERITE_TIER,
+                    new Item.Properties()
+                            .attributes(PickaxeItem.createAttributes(ModTiers.ENDERITE_TIER, 1, -2.8f))
+                            .fireResistant()
+            )
+    );
+
+    public static final RegistryObject<ShovelItem> ENDERITE_SHOVEL = ITEMS.register("enderite_shovel",
+            () -> new ShovelItem(
+                    ModTiers.ENDERITE_TIER,
+                    new Item.Properties()
+                            .attributes(PickaxeItem.createAttributes(ModTiers.ENDERITE_TIER, 1, -2.8f))
+                            .fireResistant()
+            )
+    );
+
+    public static final RegistryObject<HoeItem> ENDERITE_HOE = ITEMS.register("enderite_hoe",
+            () -> new HoeItem(
+                    ModTiers.ENDERITE_TIER,
+                    new Item.Properties()
+                            .attributes(PickaxeItem.createAttributes(ModTiers.ENDERITE_TIER, 1, -2.8f))
+                            .fireResistant()
+            )
+    );
 
     public static final RegistryObject<Item> ENDERITE_HELMET = ITEMS.register("enderite_helmet",
             () -> new ArmorItem(ItemArmorMaterial.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.HELMET,

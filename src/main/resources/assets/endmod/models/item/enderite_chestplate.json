@@ -2,8 +2,5 @@
   "parent": "minecraft:item/generated",
   "textures": {
     "layer0": "endmod:item/enderite_chestplate"
-  },
-  "overrides": [
-    { "predicate": { "trim_type": 1 }, "model": "minecraft:item/trimmed_armor_chestplate" }
-  ]
+  }
 }

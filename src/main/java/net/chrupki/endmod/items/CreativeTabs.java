@@ -22,6 +22,13 @@ public class CreativeTabs {
                         output.accept(Items.ENDERITE_INGOT.get());
                         output.accept(Items.ENDERITE_SCRAP.get());
                         output.accept(Items.ENDERITE_UPGRADE_SMITHING_TEMPLATE.get());
+
+                        output.accept(Items.ENDERITE_SWORD.get());
+                        output.accept(Items.ENDERITE_AXE.get());
+                        output.accept(Items.ENDERITE_SHOVEL.get());
+                        output.accept(Items.ENDERITE_HOE.get());
+                        output.accept(Items.ENDERITE_PICKAXE.get());
+
                         output.accept(Blocks.MODERN_DEBRIS.get());
 
                         output.accept(Items.ENDERITE_HELMET.get());
