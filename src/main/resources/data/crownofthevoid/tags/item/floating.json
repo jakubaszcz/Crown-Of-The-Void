@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "crownofthevoid:enderite_sword",
+    "crownofthevoid:enderite_pickaxe",
+    "crownofthevoid:enderite_axe",
+    "crownofthevoid:enderite_shovel",
+    "crownofthevoid:enderite_hoe",
+    "crownofthevoid:enderite_helmet",
+    "crownofthevoid:enderite_chestplate",
+    "crownofthevoid:enderite_leggings",
+    "crownofthevoid:enderite_boots",
+    "crownofthevoid:enderite_ingot",
+    "crownofthevoid:enderite_scrap",
+    "crownofthevoid:modern_debris"
+  ]
+}
