@@ -1,9 +1,0 @@
-{
-  "asset_name": "enderite_color_palettes",
-  "description": {
-    "color": "#031CFC",
-    "translate": "trim_material.crownofthevoid.enderite_ingot"
-  },
-  "ingredient": "crownofthevoid:enderite_ingot",
-  "item_model_index": 0.8
-}
