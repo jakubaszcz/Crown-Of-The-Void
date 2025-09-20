@@ -24,6 +24,12 @@ public class Blocks {
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.ANCIENT_DEBRIS)));
 
+    public static final RegistryObject<Block> METEOR_STONE = registerBlock("meteor_stone",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(65f, 1500f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.STONE)));
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn);

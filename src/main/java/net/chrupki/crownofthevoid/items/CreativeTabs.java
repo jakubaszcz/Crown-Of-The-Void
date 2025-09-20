@@ -23,6 +23,7 @@ public class CreativeTabs {
                         output.accept(Items.ENDERITE_SCRAP.get());
                         output.accept(Items.ENDERITE_UPGRADE_SMITHING_TEMPLATE.get());
                         output.accept(Blocks.MODERN_DEBRIS.get());
+                        output.accept(Blocks.METEOR_STONE.get());
 
 
                         output.accept(Items.ENDERITE_SWORD.get());
