@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        { "type": "minecraft:item", "name": "crownofthevoid:meteor_stone" }
+      ],
+      "conditions": [
+        { "condition": "minecraft:match_tool", "predicate": { "tag": "minecraft:pickaxes" } },
+        { "condition": "minecraft:survives_explosion" }
+      ]
+    }
+  ]
+}
