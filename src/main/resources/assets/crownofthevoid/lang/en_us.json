@@ -10,9 +10,14 @@
   "item.crownofthevoid.enderite_leggings": "Enderite Leggings",
   "item.crownofthevoid.enderite_boots": "Enderite Boots",
 
-  "creativetab.crownofthevoid.enderite_tab": "Crown of the Void",
-
   "item.crownofthevoid.enderite_scrap": "Enderite Scrap",
-  "item.crownofthevoid.enderite_scrap": "Enderite Ingot",
+  "item.crownofthevoid.enderite_ingot": "Enderite Ingot",
+
+  "block.crownofthevoid.modern_debris": "Modern Debris",
+  "block.crownofthevoid.meteor_stone": "Meteor Stone",
+
   "item.crownofthevoid.enderite_upgrade_smithing_template": "Enderite Smithing Template",
+
+  "creativetab.crownofthevoid.enderite_tab": "Crown of the Void"
+
 }

@@ -1,19 +1,22 @@
 {
-  "item.crownofthevoid.enderite_sword": "Épée en Enderite",
-  "item.crownofthevoid.enderite_pickaxe": "Pioche en Enderite",
-  "item.crownofthevoid.enderite_shovel": "Pelle en Enderite",
-  "item.crownofthevoid.enderite_axe": "Hache en Enderite",
-  "item.crownofthevoid.enderite_hoe": "Houe en Enderite",
+  "item.crownofthevoid.enderite_sword": "Épée en Endérite",
+  "item.crownofthevoid.enderite_pickaxe": "Pioche en Endérite",
+  "item.crownofthevoid.enderite_shovel": "Pelle en Endérite",
+  "item.crownofthevoid.enderite_axe": "Hache en Endérite",
+  "item.crownofthevoid.enderite_hoe": "Houe en Endérite",
 
-  "item.crownofthevoid.enderite_helmet": "Casque en enderite",
-  "item.crownofthevoid.enderite_chestplate": "Plastron en enderite",
-  "item.crownofthevoid.enderite_leggings": "Jambières en enderite",
-  "item.crownofthevoid.enderite_boots": "Bottes en enderite",
+  "item.crownofthevoid.enderite_helmet": "Casque en Endérite",
+  "item.crownofthevoid.enderite_chestplate": "Plastron en Endérite",
+  "item.crownofthevoid.enderite_leggings": "Jambières en Endérite",
+  "item.crownofthevoid.enderite_boots": "Bottes en Endérite",
 
-  "creativetab.crownofthevoid.enderite_tab": "Couronne du Néant",
+  "item.crownofthevoid.enderite_scrap": "Fragment d’Endérite",
+  "item.crownofthevoid.enderite_ingot": "Lingot d’Endérite",
 
-  "item.crownofthevoid.enderite_scrap": "Fragment d'enderite",
-  "item.crownofthevoid.enderite_ingot": "Lingot d'enderite",
-  "item.crownofthevoid.enderite_upgrade_smithing_template": "Modèle de forge d'Enderite",
-  "block.crownofthevoid.modern_debris": "Débris modernes"
+  "block.crownofthevoid.modern_debris": "Débris modernes",
+  "block.crownofthevoid.meteor_stone": "Pierre météoritique",
+
+  "item.crownofthevoid.enderite_upgrade_smithing_template": "Gabarit de forge en Endérite",
+
+  "creativetab.crownofthevoid.enderite_tab": "Couronne du Néant"
 }

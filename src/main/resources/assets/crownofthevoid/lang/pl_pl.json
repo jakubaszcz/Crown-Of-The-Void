@@ -1,19 +1,22 @@
 {
-  "item.crownofthevoid.enderite_sword": "Enderytowy miecz",
-  "item.crownofthevoid.enderite_pickaxe": "Enderytowy kilof",
-  "item.crownofthevoid.enderite_shovel": "Enderytowa łopata",
-  "item.crownofthevoid.enderite_axe": "Enderytowa siekiera",
-  "item.crownofthevoid.enderite_hoe": "Enderytowa motyka",
+  "item.crownofthevoid.enderite_sword": "Miecz z Enderytu",
+  "item.crownofthevoid.enderite_pickaxe": "Kilof z Enderytu",
+  "item.crownofthevoid.enderite_shovel": "Łopata z Enderytu",
+  "item.crownofthevoid.enderite_axe": "Siekiera z Enderytu",
+  "item.crownofthevoid.enderite_hoe": "Motyka z Enderytu",
 
-  "item.crownofthevoid.enderite_helmet": "Hełm enderytowy",
-  "item.crownofthevoid.enderite_chestplate": "Napierśnik enderytowy",
-  "item.crownofthevoid.enderite_leggings": "Nogawice enderytowe",
-  "item.crownofthevoid.enderite_boots": "Buty enderytowe",
-
-  "creativetab.crownofthevoid.enderite_tab": "Korona Pustki",
+  "item.crownofthevoid.enderite_helmet": "Hełm z Enderytu",
+  "item.crownofthevoid.enderite_chestplate": "Napierśnik z Enderytu",
+  "item.crownofthevoid.enderite_leggings": "Nogawice z Enderytu",
+  "item.crownofthevoid.enderite_boots": "Buty z Enderytu",
 
   "item.crownofthevoid.enderite_scrap": "Odłamek Enderytu",
   "item.crownofthevoid.enderite_ingot": "Sztabka Enderytu",
-  "item.crownofthevoid.enderite_upgrade_smithing_template": "Szablon kowalski enderitu",
-  "block.crownofthevoid.modern_debris": "Nowoczesne zgliszcza"
+
+  "block.crownofthevoid.modern_debris": "Nowoczesne szczątki",
+  "block.crownofthevoid.meteor_stone": "Kamień meteorytowy",
+
+  "item.crownofthevoid.enderite_upgrade_smithing_template": "Szablon kowalski Enderytu",
+
+  "creativetab.crownofthevoid.enderite_tab": "Korona Pustki"
 }
