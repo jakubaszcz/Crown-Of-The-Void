@@ -14,7 +14,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.function.Supplier;
 
-public class Blocks {
+public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS, CrownOfTheVoid.MOD_ID);
 
@@ -26,7 +26,7 @@ public class Blocks {
 
     public static final RegistryObject<Block> METEOR_STONE = registerBlock("meteor_stone",
             () -> new Block(BlockBehaviour.Properties.of()
-                    .strength(65f, 1500f)
+                    .strength(20f, 1000f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.STONE)));
 

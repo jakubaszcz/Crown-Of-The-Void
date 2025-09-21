@@ -1,7 +1,7 @@
 package net.chrupki.crownofthevoid;
 
 import com.mojang.logging.LogUtils;
-import net.chrupki.crownofthevoid.blocks.Blocks;
+import net.chrupki.crownofthevoid.blocks.ModBlocks;
 import net.chrupki.crownofthevoid.items.CreativeTabs;
 import net.chrupki.crownofthevoid.items.Items;
 import net.chrupki.crownofthevoid.loot.ModLootModifiers;
@@ -42,9 +42,10 @@ public class CrownOfTheVoid
         CreativeTabs.register(modEventBus);
 
         Items.register(modEventBus);
-        Blocks.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
+
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);

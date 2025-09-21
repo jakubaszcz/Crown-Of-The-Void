@@ -1,7 +1,7 @@
 package net.chrupki.crownofthevoid.items;
 
 import net.chrupki.crownofthevoid.CrownOfTheVoid;
-import net.chrupki.crownofthevoid.blocks.Blocks;
+import net.chrupki.crownofthevoid.blocks.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -22,8 +22,8 @@ public class CreativeTabs {
                         output.accept(Items.ENDERITE_INGOT.get());
                         output.accept(Items.ENDERITE_SCRAP.get());
                         output.accept(Items.ENDERITE_UPGRADE_SMITHING_TEMPLATE.get());
-                        output.accept(Blocks.MODERN_DEBRIS.get());
-                        output.accept(Blocks.METEOR_STONE.get());
+                        output.accept(ModBlocks.MODERN_DEBRIS.get());
+                        output.accept(ModBlocks.METEOR_STONE.get());
 
 
                         output.accept(Items.ENDERITE_SWORD.get());
