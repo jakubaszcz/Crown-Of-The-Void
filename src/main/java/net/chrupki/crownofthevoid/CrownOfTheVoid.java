@@ -3,7 +3,7 @@ package net.chrupki.crownofthevoid;
 import com.mojang.logging.LogUtils;
 import net.chrupki.crownofthevoid.blocks.ModBlocks;
 import net.chrupki.crownofthevoid.items.CreativeTabs;
-import net.chrupki.crownofthevoid.items.Items;
+import net.chrupki.crownofthevoid.items.ModItems;
 import net.chrupki.crownofthevoid.loot.ModLootModifiers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -41,7 +41,7 @@ public class CrownOfTheVoid
 
         CreativeTabs.register(modEventBus);
 
-        Items.register(modEventBus);
+        ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);

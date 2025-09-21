@@ -16,27 +16,27 @@ public class CreativeTabs {
 
     public static final RegistryObject<CreativeModeTab> ENDERITE_TAB = CREATIVE_MODE_TABS.register("enderite_tab",
             () -> CreativeModeTab.builder()
-                    .icon(() -> new ItemStack(Items.ENDERITE_INGOT.get()))
+                    .icon(() -> new ItemStack(ModItems.ENDERITE_INGOT.get()))
                     .title(Component.translatable("creativetab.crownofthevoid.enderite_tab"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(Items.ENDERITE_INGOT.get());
-                        output.accept(Items.ENDERITE_SCRAP.get());
-                        output.accept(Items.ENDERITE_UPGRADE_SMITHING_TEMPLATE.get());
+                        output.accept(ModItems.ENDERITE_INGOT.get());
+                        output.accept(ModItems.ENDERITE_SCRAP.get());
+                        output.accept(ModItems.ENDERITE_UPGRADE_SMITHING_TEMPLATE.get());
                         output.accept(ModBlocks.MODERN_DEBRIS.get());
                         output.accept(ModBlocks.METEOR_STONE.get());
 
 
-                        output.accept(Items.ENDERITE_SWORD.get());
-                        output.accept(Items.ENDERITE_AXE.get());
-                        output.accept(Items.ENDERITE_SHOVEL.get());
-                        output.accept(Items.ENDERITE_HOE.get());
-                        output.accept(Items.ENDERITE_PICKAXE.get());
+                        output.accept(ModItems.ENDERITE_SWORD.get());
+                        output.accept(ModItems.ENDERITE_AXE.get());
+                        output.accept(ModItems.ENDERITE_SHOVEL.get());
+                        output.accept(ModItems.ENDERITE_HOE.get());
+                        output.accept(ModItems.ENDERITE_PICKAXE.get());
 
 
-                        output.accept(Items.ENDERITE_HELMET.get());
-                        output.accept(Items.ENDERITE_CHESTPLATE.get());
-                        output.accept(Items.ENDERITE_LEGGINGS.get());
-                        output.accept(Items.ENDERITE_BOOTS.get());
+                        output.accept(ModItems.ENDERITE_HELMET.get());
+                        output.accept(ModItems.ENDERITE_CHESTPLATE.get());
+                        output.accept(ModItems.ENDERITE_LEGGINGS.get());
+                        output.accept(ModItems.ENDERITE_BOOTS.get());
                     }).build());
 
     public static void register(IEventBus eventBus) {

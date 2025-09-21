@@ -16,7 +16,13 @@
   "block.crownofthevoid.modern_debris": "Débris modernes",
   "block.crownofthevoid.meteor_stone": "Pierre météoritique",
 
-  "item.crownofthevoid.enderite_upgrade_smithing_template": "Gabarit de forge en Endérite",
+  "item.crownofthevoid.enderite_upgrade_smithing_template": "Gabarit de forge",
 
-  "creativetab.crownofthevoid.enderite_tab": "Couronne du Néant"
+  "creativetab.crownofthevoid.enderite_tab": "Couronne du Néant",
+
+  "upgrade.crownofthevoid.enderite_upgrade": "Amélioration enderite",
+  "item.crownofthevoid.smithing_template.enderite_upgrade.additions_slot_description": "Ajouter un lingot d'enderite",
+  "item.crownofthevoid.smithing_template.enderite_upgrade.applies_to": "Équipement en Netherite",
+  "item.crownofthevoid.smithing_template.enderite_upgrade.ingredients": "Lingot d'Enderite",
+  "item.crownofthevoid.smithing_template.enderite_upgrade.base_slot_description": "Ajouter une armure, une arme ou un outil en diamant"
 }

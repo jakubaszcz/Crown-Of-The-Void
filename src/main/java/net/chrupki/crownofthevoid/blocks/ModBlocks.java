@@ -1,7 +1,7 @@
 package net.chrupki.crownofthevoid.blocks;
 
 import net.chrupki.crownofthevoid.CrownOfTheVoid;
-import net.chrupki.crownofthevoid.items.Items;
+import net.chrupki.crownofthevoid.items.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -37,7 +37,7 @@ public class ModBlocks {
     }
 
     private static <T extends Block> void registerBlockItem(String name, RegistryObject<T> block) {
-        Items.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
+        ModItems.ITEMS.register(name, () -> new BlockItem(block.get(), new Item.Properties()));
     }
 
     public static void register(IEventBus eventBus) {

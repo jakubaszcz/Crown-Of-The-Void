@@ -26,7 +26,7 @@ public class ItemArmorMaterial {
                 attribute.put(ArmorItem.Type.CHESTPLATE, 10);
                 attribute.put(ArmorItem.Type.HELMET, 5);
                 attribute.put(ArmorItem.Type.BODY, 13);
-            }), 15, 4.0F, 0.2F, () -> Items.ENDERITE_INGOT.get());
+            }), 15, 4.0F, 0.2F, () -> ModItems.ENDERITE_INGOT.get());
 
     private static Holder<ArmorMaterial> register(String name, EnumMap<ArmorItem.Type, Integer> typeProtection,
                                                   int enchantability, float toughness, float knockbackResistance,

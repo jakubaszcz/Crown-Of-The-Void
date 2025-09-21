@@ -16,7 +16,13 @@
   "block.crownofthevoid.modern_debris": "Nowoczesne szczątki",
   "block.crownofthevoid.meteor_stone": "Kamień meteorytowy",
 
-  "item.crownofthevoid.enderite_upgrade_smithing_template": "Szablon kowalski Enderytu",
+  "item.crownofthevoid.enderite_upgrade_smithing_template": "Szablon kowalski",
 
-  "creativetab.crownofthevoid.enderite_tab": "Korona Pustki"
+  "creativetab.crownofthevoid.enderite_tab": "Korona Pustki",
+
+  "upgrade.crownofthevoid.enderite_upgrade": "Ulepszenie enderytowe",
+  "item.crownofthevoid.smithing_template.enderite_upgrade.additions_slot_description": "Dodaj sztabkę enderytu",
+  "item.crownofthevoid.smithing_template.enderite_upgrade.applies_to": "Sprzęt netheritowy",
+  "item.crownofthevoid.smithing_template.enderite_upgrade.ingredients": "Sztabka enderytu",
+  "item.crownofthevoid.smithing_template.enderite_upgrade.base_slot_description": "Dodaj diamentową zbroję, broń lub narzędzie"
 }

@@ -1,7 +1,10 @@
 package net.chrupki.crownofthevoid.items;
 
 import net.chrupki.crownofthevoid.CrownOfTheVoid;
-import net.chrupki.crownofthevoid.FloatingItems;
+import net.minecraft.ChatFormatting;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.network.chat.Component;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.*;
 import net.minecraft.world.item.component.Tool;
@@ -15,7 +18,9 @@ import net.minecraftforge.registries.RegistryObject;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.Tiers;
 
-public class Items {
+import java.util.List;
+
+public class ModItems {
 
     public class ModTiers {
 
@@ -49,7 +54,7 @@ public class Items {
 
             @Override
             public Ingredient getRepairIngredient() {
-                return Ingredient.of(Items.ENDERITE_INGOT.get());
+                return Ingredient.of(ModItems.ENDERITE_INGOT.get());
             }
 
             @Override
@@ -66,8 +71,7 @@ public class Items {
     public static final RegistryObject<Item> ENDERITE_SCRAP = ITEMS.register("enderite_scrap",
             () -> new Item(new Item.Properties().fireResistant()));
 
-    public static final RegistryObject<Item> ENDERITE_UPGRADE_SMITHING_TEMPLATE = ITEMS.register("enderite_upgrade_smithing_template",
-            () -> new Item(new Item.Properties().fireResistant()));
+
 
     public static final RegistryObject<Item> ENDERITE_INGOT = ITEMS.register("enderite_ingot",
             () -> new Item(new Item.Properties().fireResistant()));
@@ -129,6 +133,46 @@ public class Items {
     public static final RegistryObject<Item> ENDERITE_BOOTS = ITEMS.register("enderite_boots",
             () -> new ArmorItem(ItemArmorMaterial.ENDERITE_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
                     new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(46)).fireResistant()));
+
+    public static final RegistryObject<Item> ENDERITE_UPGRADE_SMITHING_TEMPLATE =
+            ITEMS.register("enderite_upgrade_smithing_template",
+                    () -> createEnderiteUpgradeTemplate());
+
+    private static SmithingTemplateItem createEnderiteUpgradeTemplate() {
+        Component appliesTo = Component.translatable("item.crownofthevoid.smithing_template.enderite_upgrade.applies_to").withStyle(ChatFormatting.BLUE);
+        Component ingredients = Component.translatable("item.crownofthevoid.smithing_template.enderite_upgrade.ingredients").withStyle(ChatFormatting.BLUE);
+        Component upgradeTitle = Component.translatable("upgrade.crownofthevoid.enderite_upgrade").withStyle(ChatFormatting.GRAY);
+        Component baseDesc = Component.translatable("item.crownofthevoid.smithing_template.enderite_upgrade.base_slot_description");
+        Component additionsDesc = Component.translatable("item.crownofthevoid.smithing_template.enderite_upgrade.additions_slot_description");
+
+        List<ResourceLocation> baseItems = List.of(
+                BuiltInRegistries.ITEM.getKey(Items.DIAMOND_HELMET),
+                BuiltInRegistries.ITEM.getKey(Items.DIAMOND_CHESTPLATE),
+                BuiltInRegistries.ITEM.getKey(Items.DIAMOND_LEGGINGS),
+                BuiltInRegistries.ITEM.getKey(Items.DIAMOND_BOOTS),
+                BuiltInRegistries.ITEM.getKey(Items.DIAMOND_SWORD),
+                BuiltInRegistries.ITEM.getKey(Items.DIAMOND_AXE),
+                BuiltInRegistries.ITEM.getKey(Items.DIAMOND_PICKAXE),
+                BuiltInRegistries.ITEM.getKey(Items.DIAMOND_SHOVEL),
+                BuiltInRegistries.ITEM.getKey(Items.DIAMOND_HOE)
+        );
+
+        List<ResourceLocation> additions = List.of(
+                BuiltInRegistries.ITEM.getKey(ModItems.ENDERITE_INGOT.get())
+        );
+
+        return new SmithingTemplateItem(
+                appliesTo,
+                ingredients,
+                upgradeTitle,
+                baseDesc,
+                additionsDesc,
+                baseItems,
+                additions
+        );
+    }
+
+
 
 
     public static void register(IEventBus eventBus) {

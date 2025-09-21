@@ -16,8 +16,17 @@
   "block.crownofthevoid.modern_debris": "Modern Debris",
   "block.crownofthevoid.meteor_stone": "Meteor Stone",
 
-  "item.crownofthevoid.enderite_upgrade_smithing_template": "Enderite Smithing Template",
+  "creativetab.crownofthevoid.enderite_tab": "Crown of the Void",
 
-  "creativetab.crownofthevoid.enderite_tab": "Crown of the Void"
+  "item.crownofthevoid.enderite_upgrade_smithing_template": "Smithing Template",
+
+
+  "upgrade.crownofthevoid.enderite_upgrade": "Enderite Upgrade",
+
+  "item.crownofthevoid.smithing_template.enderite_upgrade.additions_slot_description": "Add Enderite Ingot",
+  "item.crownofthevoid.smithing_template.enderite_upgrade.applies_to": "Netherite Equipment",
+  "item.crownofthevoid.smithing_template.enderite_upgrade.ingredients": "Enderite Ingot",
+  "item.crownofthevoid.smithing_template.enderite_upgrade.base_slot_description": "Add diamond armor, weapon, or tool"
+
 
 }

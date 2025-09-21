@@ -11,7 +11,7 @@ public class EndermanHelmetHandler {
     @SubscribeEvent
     public static void onEndermanAnger(EnderManAngerEvent event) {
         var player = event.getPlayer();
-        if (player != null && player.getItemBySlot(EquipmentSlot.HEAD).is(Items.ENDERITE_HELMET.get())) {
+        if (player != null && player.getItemBySlot(EquipmentSlot.HEAD).is(ModItems.ENDERITE_HELMET.get())) {
             event.setCanceled(true);
         }
     }
